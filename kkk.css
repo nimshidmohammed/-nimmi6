@@ -1,0 +1,18 @@
+*{
+   background-color: aqua; 
+}
+#wvc{
+    color: yellow;
+    background-color: green;
+}
+.vlc{
+    color: blueviolet;
+    background-color: aquamarine;
+}
+h2{
+    color: palevioletred;
+    background-color: bisque;
+}
+p,h5{
+    color: rgb(236, 21, 21);
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div1{
+            width: 200px;
+            height: 200px;
+            background-color:rgb(202, 220, 220) ;
+            z-index: 1;
+            position: absolute;
+            margin-left: 400px;
+            margin-top: 100px;
+        }
+        #div2{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(147, 188, 188) ;
+            z-index: 2;
+            position: absolute;
+            margin-top: 170px;
+            margin-left: 460px;
+        }
+        
+        #div3{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(106, 168, 148);
+            z-index: 3;
+            position: absolute;
+            margin-top: 240px;
+            margin-left: 520px; 
+        }
+        #div4{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(70, 148, 148);
+            z-index: 4;
+            position: absolute;
+            margin-top: 310px;
+            margin-left: 580px; 
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <h3 style="text-align: center;">z-index:1;</h3>
+
+    </div>
+    <div id="div2">
+        <h3 style="text-align: center;">z-index:1;</h3>
+    </div>
+    <div id="div3">
+        <h3 style="text-align: center;">z-index:100;</h3>
+
+    </div>
+     <div id="div4">
+        <h3 style="text-align: center;">z-index:99999;</h3>
+
+     </div>    
+</body>
+</html>

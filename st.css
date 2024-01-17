@@ -1,0 +1,25 @@
+ul,li{
+    margin: auto;
+    padding: 20px;
+}
+ul li a:hover{
+
+    color:rgb(235, 180, 13);
+
+}
+     
+a img{
+    width: 600px;
+}
+ .bb 
+ {
+  height:100px ;
+   background-image: url("https://thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/banner.jpg");
+   height: 700px;
+ } 
+ .btn-primary {
+    color: #fff;
+    background: linear-gradient(95.04deg, #FFAA3F 0.82%, #F35B04 97.35%);
+    border: 0;
+    transition: all .5s;
+} 
